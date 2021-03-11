@@ -87,7 +87,6 @@
                             <h3 class="mb-0">EOI (Industrial Organization School)</h3>
                             <div class="subheading mb-3">Data Science</div>
                             <div>Executive Program in Data science and Big data</div>
-                            <p>GPA: 3.23</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Jun 2020 - oct 2020</span></div>
                     </div>
@@ -114,14 +113,13 @@
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
                         <li class="list-inline-item"><i class="fab fa-sass"></i></li>
                         <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-django"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
+                             Responsive Design
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -143,8 +141,8 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p>Apart from being a web developer, I enjoy my time being outdoors. I like to do activities like running and swiming in the beach</p>
+                    <p class="mb-0">When forced indoors, I follow a number of horror and fantasy genre movies and television shows, and I spend a large amount of my free time exploring the latest technology advancements in the world.</p>
                 </div>
             </section>
             <hr class="m-0" />
