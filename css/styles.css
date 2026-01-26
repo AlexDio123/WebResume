@@ -9777,11 +9777,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #ff7043 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #ff8a65 !important;
 }
 
 .text-secondary {
@@ -9981,8 +9981,8 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #e5e7eb;
-  background: radial-gradient(circle at top left, #1f2933 0, #111827 40%, #020617 100%);
+  color: #b0bec5;
+  background: #0a1628;
 }
 
 @media (min-width: 992px) {
@@ -10012,11 +10012,23 @@ h1.mb-0 {
 h1.mb-0 span.text-primary {
   display: block;
   font-size: clamp(3.25rem, 5vw, 4rem);
+  color: #64b5f6;
+}
+
+/* Section titles (h2) */
+.resume-section-content h2 {
+  color: #64b5f6;
+}
+
+/* Institution names (h3) */
+.resume-section-content h3 {
+  color: #e0e0e0;
 }
 
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  color: #b0bec5;
 }
 
 .subheading {
@@ -10025,7 +10037,7 @@ p.lead {
   font-weight: 500;
   font-size: 1.1rem;
   letter-spacing: 0.18em;
-  color: #9ca3af;
+  color: #90a4ae;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -10037,9 +10049,9 @@ p.lead {
 
 /* Modern sidebar look */
 #sideNav {
-  background: rgba(15, 23, 42, 0.96);
-  border-right: 1px solid rgba(148, 163, 184, 0.16);
-  box-shadow: 0 0 35px rgba(15, 23, 42, 0.85);
+  background: #1a2942;
+  border-right: 1px solid rgba(100, 181, 246, 0.2);
+  box-shadow: 0 0 35px rgba(10, 22, 40, 0.85);
   backdrop-filter: blur(16px);
 }
 
@@ -10069,8 +10081,8 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link.active {
-  color: #0b1120;
-  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #0a1628;
+  background: linear-gradient(135deg, #64b5f6, #ff7043);
 }
 
 .navbar-dark .navbar-toggler {
@@ -10088,11 +10100,11 @@ p.lead {
 }
 
 a {
-  color: #93c5fd;
+  color: #64b5f6;
 }
 
 a:hover {
-  color: #e0f2fe;
+  color: #90caf9;
 }
 
 .btn-primary {
@@ -10132,8 +10144,8 @@ a:hover {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 3px solid rgba(96, 165, 250, 0.8);
-    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.95);
+    border: 3px solid rgba(100, 181, 246, 0.8);
+    box-shadow: 0 18px 45px rgba(10, 22, 40, 0.95);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10159,10 +10171,10 @@ a:hover {
   justify-content: center;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: rgba(15, 23, 42, 0.9);
-  color: #e5e7eb;
+  background-color: #1a2942;
+  color: #b0bec5;
   border-radius: 999px;
-  border: 1px solid rgba(148, 163, 184, 0.55);
+  border: 1px solid rgba(100, 181, 246, 0.3);
   font-size: 1.4rem;
   margin-right: 1.1rem;
   transition: all 0.18s ease-out;
@@ -10171,9 +10183,9 @@ a:hover {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  background: linear-gradient(135deg, #64b5f6, #ff7043);
   border-color: transparent;
-  color: #0b1120;
+  color: #0a1628;
   transform: translateY(-2px);
 }
 
@@ -10197,14 +10209,25 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
   max-width: 800px;
-  background: radial-gradient(circle at top, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.96))
-      padding-box,
-    linear-gradient(135deg, rgba(56, 189, 248, 0.4), rgba(129, 140, 248, 0.4)) border-box;
-  border: 1px solid transparent;
+  background: #1a2942;
+  border: 1px solid rgba(100, 181, 246, 0.2);
   border-radius: 24px;
   padding: 3rem 3.25rem;
-  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.9);
+  box-shadow: 0 30px 80px rgba(10, 22, 40, 0.9);
   backdrop-filter: blur(18px);
+}
+
+/* Body text in sections */
+.resume-section-content p,
+.resume-section-content li,
+.resume-section-content div {
+  color: #b0bec5;
+}
+
+/* Icon colors */
+.resume-section-content .fa-li > i,
+.resume-section-content .fa-ul .fa-li i {
+  color: #64b5f6;
 }
 
 @media (min-width: 768px) {
